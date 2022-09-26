@@ -22,5 +22,8 @@ values(?,?,?,?,?,?,?,?);`
     },
     sellerList: {
         query: 'select * from products_db.t_seller'
+    },
+    signUp: {
+        query:`insert into products_db.t_user set ? on duplicate key update ?`
     }
 }
