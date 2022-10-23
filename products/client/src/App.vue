@@ -14,11 +14,11 @@
           <li class="nav-item">
             <router-link class="nav-link active" to="/">제품리스트</router-link>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <router-link class="nav-link" to="/detail">제품상세</router-link>
-          </li>
+          </li> -->
           <li v-if="user.email !== undefined" class="nav-item">
-            <router-link class="nav-link" to="/create">제품등록</router-link>
+            <router-link class="nav-link" to="/sales">제품등록</router-link>
           </li>
         </ul>
         <form class="d-flex" role="search">

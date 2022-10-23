@@ -15,6 +15,21 @@ const routes = [
     path: '/create',
     name: 'ProductCreate',
     component: () => import('../views/ProductCreate.vue')
+  },
+  {
+    path: '/update',
+    name: 'ProductUpdate',
+    component: () => import('../views/ProductUpdate.vue')
+  },
+  {
+    path: '/sales',
+    name: 'SalesList',
+    component: () => import('../views/SalesList.vue')
+  },
+   {
+    path: '/images_insert',
+    name: 'ImageInsert',
+    component: () => import('../views/ImageInsert.vue')
   }
 ]
 
